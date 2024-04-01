@@ -55,6 +55,7 @@ main {
   flex-direction: column;
   align-items: center;
   height: 100vh;
+  gap: 20px 0px;
 
   background-image: url(src/img/Paulsita-photo.jpg);
   background-repeat: no-repeat;
@@ -65,5 +66,12 @@ main {
 .logo img {
   width: 180px;
   border-radius: 50%;
-  margin: 30px 0px;
+  margin-top: 20px;
+}
+
+.text_title {
+  text-align: center;
+  color: #fff;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1rem;
 }
