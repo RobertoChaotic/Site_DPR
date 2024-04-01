@@ -29,6 +29,21 @@ i:hover {
 }
 /* NavBar */
 
+header {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: rgb(135, 135, 135);
+}
+
+header h1 {
+  color: #fff;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+
 main {
   display: flex;
   justify-content: center;
@@ -38,6 +53,6 @@ main {
 }
 
 .logo img {
-  width: 125px;
+  width: 200px;
   border-radius: 50%;
 }
