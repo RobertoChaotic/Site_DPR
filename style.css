@@ -5,10 +5,10 @@
 }
 
 body {
-  background-image: url(src/img/Paulista-photo_500px.jpg);
+  background-image: url(src/img/Paulis_700px.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   background-attachment: fixed;
 }
 
