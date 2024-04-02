@@ -70,9 +70,8 @@ main {
 }
 
 .logo img {
-  width: 180px;
+  width: 200px;
   border-radius: 50%;
-  /*box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.655);*/
   margin-top: 20px;
 }
 
