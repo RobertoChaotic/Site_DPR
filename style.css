@@ -84,16 +84,13 @@ main {
   font-size: 1rem;
 }
 
-.videos {
-  opacity: 0.6;
-}
-
 .box-item {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 300px;
-  padding: 15px;
+  padding-top: 15px;
+  margin-bottom: 20px;
   border: 2px solid #919151;
   background-color: #000000;
 }
@@ -115,11 +112,12 @@ main {
   display: flex;
   flex-direction: column;
   text-align: center;
+
   width: 100%;
-  padding: 10px;
+  padding: 8px;
   font-family: "Bebas Neue", sans-serif;
   font-style: normal;
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #919151;
 }
 
@@ -131,4 +129,15 @@ main {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.7rem;
   color: #fff;
+}
+
+.videos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 230px;
+  padding: 15px;
+  border: 2px solid #919151;
+  background-color: #000000;
 }
