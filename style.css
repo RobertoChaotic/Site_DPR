@@ -5,11 +5,7 @@
 }
 
 body {
-  background-image: url(src/img/Paulis_700px.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background-color: #000000;
 }
 
 /* ----------------NavBar------------------- */
@@ -69,10 +65,30 @@ main {
   gap: 15px 0px;
 }
 
+.banner video {
+  position: fixed;
+  top: 90px;
+  left: 0px;
+  object-fit: cover;
+  width: 370px;
+  height: 255px;
+  opacity: 0.5;
+}
+
+video .banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 200px;
+}
+
 .logo img {
+  position: relative;
   width: 200px;
   border-radius: 50%;
   margin-top: 20px;
+  z-index: 1;
 }
 
 .text_title {
@@ -82,6 +98,8 @@ main {
   font-weight: 100;
   font-style: normal;
   font-size: 1rem;
+  position: relative;
+  z-index: 1;
 }
 
 .box-item {
