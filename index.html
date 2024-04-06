@@ -18,6 +18,8 @@
       src="https://kit.fontawesome.com/634f19ee7a.js"
       crossorigin="anonymous"
     ></script>
+
+    <script src="index.js" defer></script>
   </head>
   <body>
     <!--NavBar-->
@@ -35,9 +37,11 @@
     <!--Header-->
     <header>
       <h1>D.P.R.</h1>
-      <div class="icon_bar"><i class="fa-solid fa-bars"></i></div>
+      <div class="icon_bar"><i class="fa-solid fa-bars" id="btnMenu"></i></div>
     </header>
-    <div class="menu-mobile">
+    <!--Menu-movile-->
+
+    <div class="menu-mobile" id="menu-mobile">
       <div class="btn-close">
         <i class="fa-solid fa-circle-xmark"></i>
       </div>
@@ -53,6 +57,8 @@
         </ul>
       </nav>
     </div>
+    <!--Menu-movile-->
+    <div class="overlay-menu" id="overlay-menu"></div>
     <!--Header-->
     <main>
       <div class="banner">
