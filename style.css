@@ -291,7 +291,7 @@ footer h1 {
   font-style: normal;
   font-size: 1rem;
   color: #fff;
-  background-color: #f24822;
+  background-color: #919151;
 }
 .album {
   display: flex;
@@ -299,7 +299,7 @@ footer h1 {
   align-items: center;
   width: 100%;
   padding: 10px;
-  background-color: #919151;
+  background-color: #777777;
 
   font-family: "Bebas Neue", sans-serif;
   font-style: normal;
