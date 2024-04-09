@@ -307,7 +307,7 @@ footer h1 {
 }
 
 .album img {
-  width: 70px;
+  width: 60px;
 }
 
 .platoon {
@@ -319,8 +319,8 @@ footer h1 {
   border-radius: 5px;
 }
 
-.dpr_logo_footer {
-  background-color: #f24822;
+.dpr_logo_footer img {
+  width: 80px;
 }
 
 .filosofia {
