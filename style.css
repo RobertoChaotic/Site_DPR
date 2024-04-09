@@ -296,6 +296,7 @@ footer h1 {
 .album {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 100%;
   padding: 7px;
   background-color: #919151;
@@ -306,7 +307,7 @@ footer h1 {
 }
 
 .album img {
-  width: 90px;
+  width: 70px;
 }
 
 .platoon {
@@ -319,7 +320,7 @@ footer h1 {
 }
 
 .dpr_logo_footer {
-  box-shadow: none;
+  background-color: #f24822;
 }
 
 .filosofia {
