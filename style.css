@@ -290,6 +290,7 @@ section button:hover {
   justify-content: center;
   align-items: center;
   height: 30px;
+  gap: 10px;
   background-color: #919151;
 
   font-family: "Bebas Neue", sans-serif;
