@@ -289,6 +289,14 @@ section button:hover {
   color: #f24822;
 }
 /* ----------------Section Tickets------------------- */
+/* ----------------Spotify------------------- */
+
+.spotify {
+  width: 330px;
+  background-color: #8f8f5178;
+  padding: 10px;
+}
+/* ----------------Spotify------------------- */
 /* ----------------Footer------------------- */
 .footer a {
   display: flex;
