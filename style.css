@@ -292,9 +292,14 @@ section button:hover {
 /* ----------------Spotify------------------- */
 
 .spotify {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 330px;
-  background-color: #8f8f5178;
-  padding: 10px;
+
+  background-color: #919151;
+  border-radius: 14px;
+  padding: 3px;
 }
 /* ----------------Spotify------------------- */
 /* ----------------Footer------------------- */
