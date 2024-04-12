@@ -310,6 +310,7 @@ section button:hover {
   height: 30px;
   gap: 10px;
   background-color: #919151;
+  margin-top: 30px;
 
   font-family: "Bebas Neue", sans-serif;
   font-weight: 100;
