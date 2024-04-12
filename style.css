@@ -135,6 +135,7 @@ main {
 /* ----------------Banner------------------- */
 
 .banner video {
+  display: block;
   position: absolute;
   top: 90px;
   left: 0px;
@@ -310,3 +311,30 @@ section button:hover {
   color: #f24822;
 }
 /* ----------------Footer------------------- */
+
+@media (min-width: 370px) {
+  main {
+    background-image: url(src/img/Paulis_3760px.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .banner video {
+    display: none;
+  }
+
+  .logo img {
+    width: 300px;
+  }
+
+  .text_title {
+    font-size: 2rem;
+    color: #919151;
+  }
+}
