@@ -312,7 +312,7 @@ section button:hover {
 }
 /* ----------------Footer------------------- */
 
-@media (min-width: 370px) {
+@media (min-width: 430px) {
   main {
     background-image: url(src/img/Paulis_3760px.jpg);
     background-position: center center;
