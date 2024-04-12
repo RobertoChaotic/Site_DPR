@@ -132,8 +132,10 @@ main {
   gap: 15px 0px;
 }
 
+/* ----------------Banner------------------- */
+
 .banner video {
-  position: fixed;
+  position: absolute;
   top: 90px;
   left: 0px;
   object-fit: cover;
@@ -170,13 +172,15 @@ video .banner {
   z-index: 1;
 }
 
+/* ----------------Banner------------------- */
+
 .box-item {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 330px;
   padding-top: 15px;
-  margin-bottom: 20px;
+  margin: 10px;
   border: 2px solid #919151;
   background-color: #000000;
 }
