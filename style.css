@@ -285,7 +285,7 @@ section button:hover {
 }
 /* ----------------Section Tickets------------------- */
 /* ----------------Footer------------------- */
-.footer {
+.footer a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -297,11 +297,12 @@ section button:hover {
   font-weight: 100;
   font-style: normal;
   font-size: 1rem;
+  text-decoration: none;
   color: #fff;
   transition: 0.2s;
 }
 
-.footer:hover {
+.footer a:hover {
   color: #f24822;
 }
 /* ----------------Footer------------------- */
