@@ -233,6 +233,20 @@ video .banner {
   background-color: #000000;
 }
 
+/* ----------------Spotify------------------- */
+
+.spotify {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 330px;
+
+  background-color: #919151;
+  border-radius: 14px;
+  padding: 3px;
+}
+/* ----------------Spotify------------------- */
+
 /* ----------------Section Tickets------------------- */
 
 .tickets-box {
@@ -289,19 +303,7 @@ section button:hover {
   color: #f24822;
 }
 /* ----------------Section Tickets------------------- */
-/* ----------------Spotify------------------- */
 
-.spotify {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 330px;
-
-  background-color: #919151;
-  border-radius: 14px;
-  padding: 3px;
-}
-/* ----------------Spotify------------------- */
 /* ----------------Footer------------------- */
 .footer a {
   display: flex;
@@ -328,6 +330,8 @@ section button:hover {
 
 @media (min-width: 435px) {
   main {
+    display: flex;
+    width: 100%;
     background-image: url(src/img/Paulis_3760px.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -344,11 +348,38 @@ section button:hover {
   }
 
   .logo img {
-    width: 300px;
+    width: 450px;
   }
 
   .text_title {
     font-size: 2rem;
-    color: #919151;
+    color: #fff;
+  }
+
+  .box-item {
+    width: 600px;
+    height: 400px;
+  }
+
+  .pic-box01 {
+    width: 500px;
+    height: 350px;
+  }
+
+  .box_text {
+    font-size: 1.5rem;
+  }
+
+  .box_text p {
+    font-size: 0.8rem;
+  }
+
+  .spotify {
+    width: 600px;
+  }
+
+  .tickets-box {
+    border-radius: 10px;
+    background-color: #f248221d;
   }
 }
